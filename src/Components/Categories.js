@@ -6,7 +6,7 @@ export default class Categories extends Component {
     return (
       <main>
         <Header />
-        <h2>Hello Categories</h2>
+        <button type="button">Check Status</button>
       </main>
     );
   }
