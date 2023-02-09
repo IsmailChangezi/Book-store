@@ -1,65 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  background-color: #f1f2f6;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-main {
-  margin: 0 auto;
-  width: 96%;
-  background-color: #fafafa;
-}
-
-a {
-  text-decoration: none;
-}
-
-/*
-HEADER SECTION */
-
-header {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 2rem;
-  background: #fff;
-}
-
-header h1 {
-  color: #0290ff;
-}
-
-nav ul {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-
-  /* padding: 0.5rem; */
-}
-
-nav ul li {
-  margin: 1rem;
-  list-style: none;
-  font-weight: 400;
-  font-size: x-large;
-}
-
-nav ul li a:hover {
-  border-bottom: 3px solid #0290ff;
-  transition: all 0.2s ease-in-out;
-}
-
-.circular-progress {
-  position: absolute;
-  border-radius: 50%;
-  width: 4.25rem;
-  height: 4.25rem;
-  border: 5px solid #307bbe;
-  border-left-color: #e8e8e8;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
 }

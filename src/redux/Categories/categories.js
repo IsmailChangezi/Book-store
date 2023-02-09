@@ -1,18 +1,12 @@
-const defaultConfigureState = [];
-const CHECK_STATUS = 'book-store/categories/CHECK_STATUS';
+const CHECK_STATUS = 'bookstore/categories/CHECK_STATUS';
 
-export const ConfigureStateReducer = (
-  state = defaultConfigureState,
-  action,
-) => {
+export default function categoriesReducer(state = [], action) {
   switch (action.type) {
-    case CHECK_STATUS:
-      return 'Under Construction';
-    default:
-      return state;
+    case CHECK_STATUS: return 'Under construction';
+    default: return state;
   }
-};
+}
 
-export const statusAction = () => ({
-  type: CHECK_STATUS,
-});
+export function checkStatus() {
+  return { type: CHECK_STATUS };
+}
