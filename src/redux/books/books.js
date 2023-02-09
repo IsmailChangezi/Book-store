@@ -1,16 +1,16 @@
-const ADD_BOOK = "bookstore/books/ADD_BOOK";
-const REMOVE_BOOK = "bookstore/books/REMOVE_BOOK";
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
 const defaultState = [
   {
     id: 0,
-    title: "Kite Runner",
-    author: "Ahmed Gulzari",
+    title: 'Kite Runner',
+    author: 'Ahmed Gulzari',
   },
   {
     id: 1,
-    title: "Head First Java ",
-    author: "O Reilly",
+    title: 'Head First Java ',
+    author: 'O Reilly',
   },
 ];
 

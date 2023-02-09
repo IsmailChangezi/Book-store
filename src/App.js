@@ -1,6 +1,8 @@
-import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
-import Books from "./components/Books";
-import Categories from "./components/Categories";
+import {
+  BrowserRouter, Link, Route, Routes,
+} from 'react-router-dom';
+import Books from './components/Books';
+import Categories from './components/Categories';
 
 function App() {
   return (
