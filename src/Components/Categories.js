@@ -12,7 +12,9 @@ export default function Categories() {
   return (
     <div>
       <p>{status}</p>
-      <button type="button" onClick={() => displayState(checkStatus())}>Check Status</button>
+      <button type="button" onClick={() => displayState(checkStatus())}>
+        Check Status
+      </button>
     </div>
   );
 }

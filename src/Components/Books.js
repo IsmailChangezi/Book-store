@@ -10,7 +10,9 @@ export default function Books() {
     <div>
       {books.map((book) => {
         id += 1;
-        return <Book key={id} id={book.id} title={book.title} author={book.author} />;
+        return (
+          <Book key={id} id={book.id} title={book.title} author={book.author} />
+        );
       })}
       <AddBook />
     </div>
