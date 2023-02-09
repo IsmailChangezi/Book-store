@@ -1,8 +1,10 @@
 import {
   BrowserRouter, Link, Route, Routes,
 } from 'react-router-dom';
-import Books from './components/Books';
-import Categories from './components/Categories';
+// eslint-disable-next-line
+import Books from "./components/Books";
+// eslint-disable-next-line
+import Categories from "./components/Categories";
 
 function App() {
   return (
