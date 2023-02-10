@@ -2,8 +2,8 @@ import {
   BrowserRouter, Link, Route, Routes,
 } from 'react-router-dom';
 import './App.css';
-import Books from './components/Books';
-import Categories from './components/Categories';
+import Books from './Components/Books';
+import Categories from './Components/Categories';
 
 function App() {
   return (
