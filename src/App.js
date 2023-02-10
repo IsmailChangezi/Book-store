@@ -1,9 +1,6 @@
-import {
-  BrowserRouter, Link, Route, Routes,
-} from 'react-router-dom';
-// eslint-disable-next-line
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import "./App.css";
 import Books from "./components/Books";
-// eslint-disable-next-line
 import Categories from "./components/Categories";
 
 function App() {
