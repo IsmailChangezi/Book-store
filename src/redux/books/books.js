@@ -1,16 +1,16 @@
-const ADD_BOOK = "bookstore/books/ADD_BOOK";
-const REMOVE_BOOK = "bookstore/books/REMOVE_BOOK";
+const ADD_BOOK = 'bookstore/books/ADD_BOOK';
+const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
 const defaultState = [
   {
     id: 0,
-    title: "The Hunger Games",
-    author: "Sauzanne Collins",
+    title: 'The Hunger Games',
+    author: 'Sauzanne Collins',
   },
   {
     id: 1,
-    title: "Dune",
-    author: "Frank Herbert",
+    title: 'Dune',
+    author: 'Frank Herbert',
   },
 ];
 
