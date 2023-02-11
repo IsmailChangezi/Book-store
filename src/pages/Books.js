@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
+// eslint-disable //
 import Book from '../components/Book';
 import Form from '../components/Form';
+// eslint-enable
 import { getAllBooks } from '../redux/books/books';
 
 const Books = () => {
@@ -12,7 +14,6 @@ const Books = () => {
   }, [dispatch]);
   return (
     <>
-
       <ul>
         {books.map((book) => (
           <Book
@@ -22,7 +23,6 @@ const Books = () => {
             author={book.author}
           />
         ))}
-
       </ul>
       <Form />
     </>
