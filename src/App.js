@@ -4,7 +4,7 @@ import Books from './pages/Books';
 
 import Categories from './pages/Categories';
 // eslint-disable-next-line
-import Navigation from "./components/Navigation";
+import Navigation from "./Components/Navigation";
 
 function App() {
   return (
