@@ -1,6 +1,7 @@
-import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { checkStatus } from '../redux/categories/categories';
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+// eslint-disable-next-line
+import { checkStatus } from "../redux/categories/categories";
 
 const Categories = () => {
   const dispatch = useDispatch();
@@ -13,7 +14,9 @@ const Categories = () => {
   return (
     <div>
       <h4>{currentStatus}</h4>
-      <button type="button" onClick={showStatus}>Check Status</button>
+      <button type="button" onClick={showStatus}>
+        Check Status
+      </button>
     </div>
   );
 };
