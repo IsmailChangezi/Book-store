@@ -1,10 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Books from './pages/Books';
-
 import Categories from './pages/Categories';
-// eslint-disable-next-line
-import Navigation from "./Components/Navigation";
+import Navigation from './components/Navigation';
 
 function App() {
   return (
@@ -15,6 +13,7 @@ function App() {
         <Route path="/categories" element={<Categories />} />
       </Routes>
     </>
+
   );
 }
 
