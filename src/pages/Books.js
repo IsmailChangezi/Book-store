@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-// eslint-disable //
-import Book from '../components/Book';
-import Form from '../components/Form';
-// eslint-enable
+// eslint-disable-next-line
+import Book from "../components/Book";
+// eslint-disable-next-line
+import Form from "../components/Form";
+
 import { getAllBooks } from '../redux/books/books';
 
 const Books = () => {
