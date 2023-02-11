@@ -1,8 +1,8 @@
-import { Route, Routes } from "react-router-dom";
-import "./App.css";
-import Books from "./pages/Books";
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Books from './pages/Books';
 
-import Categories from "./pages/Categories";
+import Categories from './pages/Categories';
 // eslint-disable-next-line
 import Navigation from "./components/Navigation";
 

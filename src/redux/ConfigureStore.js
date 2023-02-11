@@ -1,5 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
-import bookReducer from "./books/books";
+import { configureStore } from '@reduxjs/toolkit';
+import bookReducer from './books/books';
 // eslint-disable-next-line
 import categoryReducer from "./categories/categories";
 
